@@ -4,15 +4,28 @@ body {
 }
 
 .calculator {
-    width: 45vw;
+    width: 350px;
     margin: 60px auto;
-    margin-top: 100px;
     padding: 20px;
-    height: 60vh;
+    height: 400px;
     background-color: #070202;
     border: 2px solid #373535;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+@media(max-width:590px) {
+    .calculator{
+        height: 320px;
+        width: 290px;
+    }
+    
+}
+@media(max-width:400px) {
+    .calculator{
+        height: 330px;
+        width: 200px;
+    }
+    
 }
 
 #display {
